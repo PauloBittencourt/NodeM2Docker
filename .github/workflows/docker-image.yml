@@ -1,0 +1,22 @@
+name: Docker M2 Digital NodeJs Desafio
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: node-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      run: npm install 
+      copy: . . 
+      expose: 3000
+      cmd: node index.js
