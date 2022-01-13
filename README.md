@@ -49,6 +49,37 @@ $ npm run dev
 
 The app will be available for access on your browser at `http://localhost:3000`
 
+# Creating table from M2Equipes at  `http://localhost:3000/m2equipe`  (POST)
+example :
+            nome: 'Analistas',
+            idequipe: 1,
+            ativo: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+            
+# Creating table from M2Usuarios at  `http://localhost:3000/m2usuario` (POST)
+example :
+            nome: 'Pedro Santos',
+			      idequipe: 1,
+            ativo: 1,
+            login: 'pedrosantos',
+            password: 'admin',
+            idusuario: 1,
+            createdAt: new Date(),
+            updatedAt: new Date()
+            
+# Getting all tables from M2Equipes at  `http://localhost:3000/m2equipe`  (GET)
+
+# Getting all tables from M2Usuarios at  `http://localhost:3000/m2usuarios`  (GET)
+
+# Disable table from M2Equipes at `http://localhost:3000//m2equipe/update/:id` (PATCH)
+
+# Disable table from M2Usuario at `http://localhost:3000//m2usuario/update/:id` (PATCH)
+
+# Calling all actives tables from M2Equipes at `http://localhost:3000/m2equipe/ativos`  (GET)
+
+# Calling all actives tables from M2Usuario at `http://localhost:3000/m2usuario/ativos`  (GET)
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
