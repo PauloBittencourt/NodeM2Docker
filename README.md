@@ -35,6 +35,12 @@ $ git clone https://github.com/PauloBittencourt/Rentalxt && cd Rentalx
 ```
 
 **Follow the steps below**
+```
+with Docker installed and repository, run the command in the console:
+
+docker build .
+```
+
 
 ```bash
 # Install the dependencies
