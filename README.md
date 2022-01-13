@@ -31,7 +31,7 @@ This project was developed using cutting edge back-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/PauloBittencourt/Rentalxt && cd Rentalx
+$ git clone https://github.com/PauloBittencourt/NodeM2Docker && cd NodeM2Docker
 ```
 
 **Follow the steps below**
